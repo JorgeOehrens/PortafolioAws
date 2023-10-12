@@ -289,8 +289,14 @@ button:focus {
     animation: rotate 2s linear infinite;
   }
 }
+.mobile {
+  display: none;
+}
 
 @media only screen and (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
   .desktop {
     display: none;
   }
